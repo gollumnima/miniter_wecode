@@ -1,0 +1,236 @@
+* {
+  font-family: "Farro", sans-serif;
+  box-sizing: border-box;
+}
+
+/*display:flex는 수직일때, display:inline-flex는 수평으로*/
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: azure;
+}
+#dooriter_container {
+  width: 100%;
+}
+/*바 부분*/
+#dooriter_bar {
+  background-color: #364040;
+  color: #bbbbbb;
+  display: inline-flex;
+  align-items: center;
+  height: 3em;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  /*z-index: 1; */
+}
+
+.dooriter_bar_left_1 {
+  align-items: center;
+  display: inline-flex;
+  margin: 5%;
+}
+.dooriter_bar_left_2 {
+  margin: 25%;
+}
+.dooriter_bar_right_1 {
+  margin: 40%;
+  display: inline-flex;
+  align-content: center;
+}
+
+.dooriter_bar_right_2 {
+  margin: 20%;
+}
+.search {
+  border: none;
+  border-radius: 5px;
+  margin-left: 50%;
+}
+
+/*2nd bar*/
+
+.color_2nd_bar {
+  background-color: #6b7f80;
+  height: 18em;
+}
+
+/*프로필부분*/
+
+.white_2nd_bar {
+  background-color: white;
+  border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+.wecode {
+  color: rgb(255, 255, 255);
+  font-size: 8em;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 0.5em;
+}
+.profile_line_left {
+  display: flex;
+  align-content: center;
+  height: 4em;
+  text-align: center;
+}
+
+.pf_left_title {
+  display: flex;
+  flex-flow: column wrap;
+  font-size: 1em;
+  justify-content: center;
+  margin-right: 5em;
+  /* margin-top: 2%; */
+}
+
+.pf_left_bold {
+  font-weight: bold;
+  word-spacing: 2em;
+}
+
+/* .pf_left_title {
+  display: block;
+  width: 200px;
+} */
+
+.pf_left_element {
+  word-spacing: 100px;
+  /* margin-top: 8%; */
+  /* margin-right: 2%; */
+  font-size: 1.3em;
+  font-weight: lighter;
+}
+
+/* .profile_line_right {
+  margin-left: 10%;
+  margin-top: 1%;
+} */
+/* #dooriter_bottom {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+} 나중에 다시 할 부분!*/
+
+#dooriter_bottom {
+  display: inline-flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+#profile_container {
+  background-color: white;
+  width: 30%;
+  height: 32em;
+  margin-left: 2%;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.profile_up {
+  background-color: #d6feff;
+  height: 16em;
+  width: 100%;
+  border-bottom: 1px solid #bdbdbd;
+}
+.profile_down {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.pf_name {
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.pf_nickname {
+  color: #9e9393;
+}
+
+.pf_pic {
+  margin-left: 30%;
+  border-radius: 50%;
+  height: 12em;
+  margin-top: 2em;
+}
+
+.pf_introduce {
+  margin-top: 5%;
+}
+
+/*투리터 박스부분*/
+#doorits_container {
+  width: 65%;
+  margin-left: 1%;
+}
+
+.write_doorits {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 16.2em;
+  background-color: #c1e5e6;
+  align-content: center;
+  justify-content: center;
+}
+.write_doorits_input {
+  width: 90%;
+  height: 9em;
+  border: none;
+  border-radius: 1em;
+  margin-bottom: 3%;
+}
+.doorit_btn {
+  color: white;
+  background-color: #687979;
+  border: none;
+  border-radius: 1em;
+  width: 10%;
+  margin-left: 40%;
+  height: 3em;
+}
+.doorits_box {
+  background-color: white;
+  border-bottom: 0.5px solid #bdbdbd;
+}
+
+.id_and_time {
+  display: flex;
+}
+.doorits_id {
+  font-weight: bold;
+  font-size: 1em;
+  margin-left: 10px;
+  border: none;
+  background-color: white;
+  margin-top: 1em;
+}
+.contents_wrap {
+  font-size: 0.9em;
+  height: 8em;
+  margin-top: -2px;
+  margin-left: 10px;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.time {
+  font-size: 0.9em;
+  color: #bdbdbd;
+  margin-left: 10px;
+}
+
+.doorits_contents{
+  margin-left: 17px;
+}

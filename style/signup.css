@@ -1,0 +1,42 @@
+* {
+  font-family: "Farro", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a9e2f3;
+  display: flex;
+  justify-content: center;
+}
+
+#signup_container {
+  width: 629px;
+  height: 333px;
+  /* margin: 0 auto; */
+}
+
+.sign_please {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 10%;
+}
+
+input {
+  width: 529px;
+  height: 49px;
+  margin: 10px;
+  border: none;
+  border-bottom: 1.5px solid #bdbdbd;
+}
+
+.signup_btn {
+  color: white;
+  font-size: 20px;
+  width: 529px;
+  height: 49px;
+  margin: 10px;
+  /*버튼이 혼자 떨어져 있어서 준 margin */
+  border: none;
+  border-radius: 5px;
+  background-color: #bdbdbd;
+}
